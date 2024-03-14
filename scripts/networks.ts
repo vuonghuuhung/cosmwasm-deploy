@@ -18,3 +18,12 @@ export const malagaConfig: Network = {
   feeToken: "umlg",
   faucetUrl: "https://faucet.malaga-420.cosmwasm.com/",
 };
+
+export const OraichainConfig: Network = {
+  chainId: "Oraichain",
+  rpcEndpoint: "https://rpc.orai.io",
+  prefix: "orai",
+  gasPrice: GasPrice.fromString("0.002orai"),
+  feeToken: "orai",
+  faucetUrl: "https://faucet.orai.io/",
+};

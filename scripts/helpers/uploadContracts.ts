@@ -24,8 +24,7 @@ export async function uploadContracts(
     const receipt = await client.upload(
       signer,
       wasm,
-      "auto",
-      `Upload ${contract.name}`
+      "auto"
     );
     uploaded[contract.name] = receipt.codeId;
   }
